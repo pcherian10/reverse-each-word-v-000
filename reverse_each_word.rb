@@ -5,4 +5,3 @@ def reverse_each_word (string)
   puts result.join(" ")
 end
 
-reverse_each_word("Hello there, and how are you?")
