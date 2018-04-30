@@ -5,3 +5,9 @@ def reverse_each_word (string)
   result.join(" ")
 end
 
+def reverse_each_word (string)
+  string = string.split()
+  result = []
+  result = string.collect {|word| word.reverse}
+  result.join(" ")
+end
